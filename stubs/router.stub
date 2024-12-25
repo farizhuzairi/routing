@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Routing;
+
+use Hascha\Routing\Service\Traits\Routerable;
+
+enum {{ className }} : string
+{
+    use Routerable;
+
+    /*
+    * Data format.
+    * Apart from the route name and end-point,
+    * the values ​​defined are optional.
+    * [route_name] # [http_method] # [end_point] # [page_name] # [page_title]
+    *
+    */
+    case INDEX = "index#get#/#Home#Home Page";
+}

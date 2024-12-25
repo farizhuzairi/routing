@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Routing;
+
+use Hascha\Routing\Service\RouteService;
+use Hascha\Routing\Service\Contracts\Pageable;
+
+class {{ className }} extends RouteService implements Pageable
+{
+    /*
+    * Defines page data based on route name as key value.
+    *
+    */
+    public function pages(): array
+    {
+        return [
+            "index" => [
+                "headTitle" => "Home Page | My Web",
+                "intro" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, labore! Nobis, explicabo!",
+                "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, harum fuga laboriosam sed odio aspernatur nesciunt tenetur rerum quaerat explicabo sunt et. Blanditiis hic quibusdam veritatis esse iure neque quis, nesciunt iusto vel officiis quisquam sint!"
+            ],
+        ];
+    }
+}
