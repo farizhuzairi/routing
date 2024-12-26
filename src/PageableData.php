@@ -11,14 +11,14 @@ class PageableData extends RouteService implements Pageable
     {
         return [
 
-            "index" => [
-                "headTitle" => "Home Page | My Web",
-                "intro" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, labore! Nobis, explicabo!",
-                "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, harum fuga laboriosam sed odio aspernatur nesciunt tenetur rerum quaerat explicabo sunt et. Blanditiis hic quibusdam veritatis esse iure neque quis, nesciunt iusto vel officiis quisquam sint!",
-                "controller" => null,
-                "function" => null,
-                "middleware" => [],
-            ],
+            // "index" => [
+            //     "headTitle" => "Home Page | My Web",
+            //     "intro" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, labore! Nobis, explicabo!",
+            //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, harum fuga laboriosam sed odio aspernatur nesciunt tenetur rerum quaerat explicabo sunt et. Blanditiis hic quibusdam veritatis esse iure neque quis, nesciunt iusto vel officiis quisquam sint!",
+            //     "controller" => null,
+            //     "method" => null,
+            //     "middleware" => [],
+            // ],
 
         ];
     }

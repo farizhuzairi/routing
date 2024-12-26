@@ -13,5 +13,5 @@ enum Router : string
     * [route_name] # [http_method] # [end_point] # [page_name] # [page_title]
     *
     */
-    case INDEX = "index # get # / # Home # Home Page";
+    // case INDEX = "index # get # / # Home # Home Page";
 }

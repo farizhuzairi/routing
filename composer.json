@@ -40,6 +40,11 @@
             ]
         }
     },
+    "scripts": {
+        "post-install-cmd": [
+            "@php artisan routing:data-install"
+        ]
+    },
     "minimum-stability": "stable",
     "prefer-stable": true
 }
