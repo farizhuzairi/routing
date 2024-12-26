@@ -33,7 +33,7 @@ class RouteDataServiceInstall extends Command
             File::makeDirectory($directory, 0755, true);
         }
 
-        $stubPath = base_path('vendor/haschamedia/routing/stubs/router.stub');
+        $stubPath = base_path('vendor/farizhuzairi/routing/stubs/router.stub');
         if (!$stubPath || !File::exists($stubPath)) {
             $this->error("Stub file does not exist at path $stubPath.");
             return;
@@ -54,7 +54,7 @@ class RouteDataServiceInstall extends Command
             File::makeDirectory($directory, 0755, true);
         }
 
-        $stubPath = base_path('vendor/haschamedia/routing/stubs/pageable-data.stub');
+        $stubPath = base_path('vendor/farizhuzairi/routing/stubs/pageable-data.stub');
         if (!$stubPath || !File::exists($stubPath)) {
             $this->error("Stub file does not exist at path $stubPath.");
             return;
