@@ -3,9 +3,9 @@
     "type": "library",
     "description": "Layanan pembuat rute aplikasi berbasis website dengan Laravel.",
     "keywords": [
-        "route",
+        "laravel route",
         "routing",
-        "laravel"
+        "route service"
     ],
     "license": "MIT",
     "support": {
