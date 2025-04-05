@@ -36,6 +36,10 @@ class HaschaRouteServiceProvider extends ServiceProvider
             __DIR__.'/../config/routing.php' => config_path('routing.php'),
         ], 'routing-config');
 
+        Request::macro('pageable', function () {
+            return app(Pageable::class);
+        });
+
         Request::macro('routeAs', function() {
             $use = '\App\Routing\Router';
             if(class_exists($use)){
